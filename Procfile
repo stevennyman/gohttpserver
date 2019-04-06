@@ -1,1 +1,1 @@
-web: gohttpserver --addr :$PORT --root testdata --upload --theme black
+web: gohttpserver --addr :$PORT --root testdata --upload --delete --theme black --auth-type http --auth-http username:password
